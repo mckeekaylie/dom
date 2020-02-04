@@ -123,4 +123,4 @@ document.getElementById('nameInput').addEventListener('keyup', event => {
     } else {
         document.getElementsByTagName('p')[1].innerText = `everyone say hello to ${event.target.value}`
     }
-})
+}) 
